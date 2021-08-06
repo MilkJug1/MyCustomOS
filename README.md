@@ -7,3 +7,11 @@ Im also using the [Youtube](https://www.youtube.com/watch?v=FkrpUaGThTQ&list=PLZ
 
 Stuff you will need
 -------------------
+git, docker, a docker container, QEMU,
+
+
+If you choose to edit this os at all, make sure to enable the docker container (if it hasn't already).
+Do
+`docker buildenv -t nameofthing-buildenv`
+to create and setup the docker container then for every time you need to compile the os do this command
+``
