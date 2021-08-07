@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 x86_64_asm_source_files := $(shell find src/impl/x86_64 -name *.asm)
 x86_64_asm_object_files := $(patsubst src/impl/x86_64/%.asm, build/x86_64/%.o, $(x86_64_asm_source_files))
 
@@ -11,3 +12,7 @@ build-x86_64: $(x86_64_asm_object_files)
 	x86_64-elf-ld -n -o dist/x86_64/kernel.bin -T targets/x86_64/linker.ld $(x86_64_asm_object_files) && \
 	cp dist/x86_64/kernel.bin targets/x86_64/iso/boot/kernel.bin && \
 	grub-mkrescue /usr/lib/grub/i386-pc -o dist/x86_64/kernel.iso targets/x86_64/iso
+=======
+x86_64_asm_source_files :=$(shell find src/impl/x86_64 0name *.asm)
+x86_64_asm_object_files :- $(patsubst src/impl/x86_64/%.asm, build/x86_64/%.o,) $(x86_64_asm_source_files)
+>>>>>>> 3fc6f916b29ece858e89d6edd054b692dc7e1547
