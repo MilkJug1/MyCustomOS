@@ -1,10 +1,6 @@
 # Write Your Own 64-bit Operating System Kernel From Scratch
 
-This respository holds all the source code for [this YouTube tutorial series](https://www.youtube.com/playlist?list=PLZQftyCk7_SeZRitx5MjBKzTtvk0pHMtp).
-
-You can find the revision for a specific episode on [this page](https://github.com/davidcallanan/yt-os-series/tags).
-
-Considering supporting this work via [my Patreon page](http://patreon.com/codepulse).
+This repo is holding all of the code from [this YouTube tutorial series](https://www.youtube.com/playlist?list=PLZQftyCk7_SeZRitx5MjBKzTtvk0pHMtp) its just to see if I can do it and if I can modify it at all.
 
 ## Prerequisites
 
