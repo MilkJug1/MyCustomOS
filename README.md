@@ -13,5 +13,7 @@ git, docker, a docker container, QEMU,
 If you choose to edit this os at all, make sure to enable the docker container (if it hasn't already).
 Do
 `docker buildenv -t nameofthing-buildenv`
-to create and setup the docker container then for every time you need to compile the os do this command
-``
+to start the docker container do 
+`docker run --rm -it -v $pwd:/root/env name of docker container` (on Linux/Mac)
+If you are on windows do 
+`docker run --rm -it -v %cd%:/root/env name of docker container`
